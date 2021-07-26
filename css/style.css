@@ -1,0 +1,122 @@
+*{ padding: 0;
+    margin: 0;
+}
+.tope{
+    border-bottom:lightgray solid 2px;
+   }
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+
+}
+
+
+h1{
+display: flex;
+color: rgb(41, 156, 160);
+background-color: transparent;
+font-family: 'Supermercado One', sans-serif, cursive;
+text-align: center;
+align-items:center;
+font-size: 1.5rem;
+text-decoration: none; 
+margin-bottom: 0rem;
+margin-top: 0rem; 
+vertical-align: text-bottom;   
+justify-content:center;
+}
+
+.imgHeader{
+    display:flex;
+    height: 8rem;
+    width: 12rem;
+    justify-content:space-between;
+    align-items:baseline;
+    margin: 0px;
+}   
+
+nav{
+    display: flex;
+    color:rgb(124, 110, 110); 
+    background-color: transparent;
+    font-family: 'Supermercado One', sans-serif, cursive;
+    border-top-color: transparent ;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-style:solid;
+    border-width: 1.5px;
+    font-size: 1.5rem;
+    justify-content:left;
+    align-items: center;
+    }
+
+body{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5 ;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(124, 110, 110); 
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+footer{
+    display: flex;
+    color: rgb(41, 156, 160);
+    background-color: transparent;
+    font-family: 'Supermercado One', sans-serif, cursive;
+    font-weight: bold;
+    justify-content: space-evenly;
+    border-top: lightgray solid 2px;
+    }
+
+
+    @media screen and (max-width: 768px){
+        header{
+            font-size: none;
+    
+        }
+        .imgHeader{
+            display: flex;  
+            height: 3rem;
+            width: 9rem;   
+        
+        }
+        .imagenContacto{
+            display: none; 
+        }
+        .yoga{
+            flex-direction: column;
+            justify-items: center;
+            align-content: center;
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+        .cuerpoGeneral{
+            flex-direction: column;
+        }
+        .imgNosotros{
+        border-radius: 35px;
+        width: 250px;
+        margin-right: 2rem;
+        align-items: center;
+        }
+    
+        .cursos{
+            flex-direction: column;
+            justify-items: center;
+            align-content: center;
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+    }
