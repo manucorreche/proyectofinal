@@ -119,3 +119,15 @@ footer{
     height: 12rem;
     margin-top: 1em;
 }
+.imgNosotros{
+    border-radius: 35px;
+    width: 250px;
+    float: left;
+    margin-right: 2em;
+    }
+.imgNosotrosR{
+        border-radius: 35px;
+        width: 250px;
+        float: right;   
+        }
+    
