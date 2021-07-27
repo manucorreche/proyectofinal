@@ -130,4 +130,10 @@ footer{
         width: 250px;
         float: right;   
         }
-    
+.imgBuda{
+            display:flex;
+            float: right;
+            border-radius: 35px;
+            width: 20rem;
+            height: 20rem;
+        }
