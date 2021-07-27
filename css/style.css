@@ -4,8 +4,9 @@
 .tope{
     border-bottom:lightgray solid 2px;
    }
-
-
+a{
+    text-decoration: none;
+}
 header{
     display: flex;
     flex-direction: row;
@@ -64,7 +65,7 @@ body{
     margin-right: 2rem;
 }
 h2{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Supermercado One','Open Sans', sans-serif;
     color: rgb(124, 110, 110); 
     font-weight: bold;
     margin-top: 0.5rem;
@@ -80,43 +81,28 @@ footer{
     border-top: lightgray solid 2px;
     }
 
+.textos{
+    margin-bottom: 1em;
+}
 
-    @media screen and (max-width: 768px){
-        header{
-            font-size: none;
-    
-        }
-        .imgHeader{
-            display: flex;  
-            height: 3rem;
-            width: 9rem;   
-        
-        }
-        .imagenContacto{
-            display: none; 
-        }
-        .yoga{
-            flex-direction: column;
-            justify-items: center;
-            align-content: center;
-            margin-right: 1rem;
-            margin-left: 1rem;
-        }
-        .cuerpoGeneral{
-            flex-direction: column;
-        }
-        .imgNosotros{
-        border-radius: 35px;
-        width: 250px;
-        margin-right: 2rem;
-        align-items: center;
-        }
-    
-        .cursos{
-            flex-direction: column;
-            justify-items: center;
-            align-content: center;
-            margin-right: 1rem;
-            margin-left: 1rem;
-        }
+@media screen and (max-width: 576px){
+    h1{
+        display: none;
     }
+    nav{
+        display: flex;
+    }
+    .imgEventos{
+    display: none;
+    }
+
+}
+
+.imgEventos{
+    display: flex;
+    size: 40%;
+    border-radius: 35px;
+    margin-bottom: 2em;
+    
+    
+}
