@@ -71,6 +71,14 @@ h2{
     margin-top: 0.5rem;
     margin-bottom: 1rem;
 }
+h3{
+    font-family: 'Supermercado One','Open Sans', sans-serif;
+    color: rgb(41, 156, 160); 
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+
+}
 footer{
     display: flex;
     color: rgb(41, 156, 160);
@@ -98,11 +106,16 @@ footer{
 
 }
 
-.imgEventos{
+.imgGeneral{
     display: flex;
-    size: 40%;
     border-radius: 35px;
     margin-bottom: 2em;
-    
-    
+    margin-top: 1em;
+}
+.imgHatha{
+    display:flex;
+    border-radius: 35px;
+    width: 18rem;
+    height: 12rem;
+    margin-top: 1em;
 }
