@@ -137,3 +137,13 @@ footer{
             width: 20rem;
             height: 20rem;
         }
+.carousel-caption {
+            top: 0;
+            bottom: auto;
+            font-family: 'Supermercado One', sans-serif, cursive;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+.carLetraBlanca{
+    color: white;
+}
