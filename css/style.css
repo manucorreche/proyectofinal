@@ -1,160 +1,142 @@
-*{ padding: 0;
-    margin: 0;
-}
-.tope{
-    border-bottom:lightgray solid 2px;
-   }
-a{
-    text-decoration: none;
-}
-header{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:center;
+* {
+  padding: 0;
+  margin: 0; }
 
-}
+h1 {
+  display: flex;
+  color: #299ca0;
+  background-color: transparent;
+  font-family: "Supermercado One", sans-serif, cursive;
+  text-align: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  vertical-align: text-bottom;
+  justify-content: center; }
 
+body {
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  margin-left: 2rem;
+  margin-right: 2rem; }
 
-h1{
-display: flex;
-color: rgb(41, 156, 160);
-background-color: transparent;
-font-family: 'Supermercado One', sans-serif, cursive;
-text-align: center;
-align-items:center;
-font-size: 1.5rem;
-text-decoration: none; 
-margin-bottom: 0rem;
-margin-top: 0rem; 
-vertical-align: text-bottom;   
-justify-content:center;
-}
+h2 {
+  font-family: "Supermercado One", sans-serif, cursive;
+  color: #7c6e6e;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem; }
 
-.imgHeader{
-    display:flex;
-    height: 8rem;
-    width: 12rem;
-    justify-content:space-between;
-    align-items:baseline;
-    margin: 0px;
-}   
+h3 {
+  font-family: "Supermercado One", sans-serif, cursive;
+  color: #299ca0;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem; }
 
-nav{
-    display: flex;
-    color:rgb(124, 110, 110); 
-    background-color: transparent;
-    font-family: 'Supermercado One', sans-serif, cursive;
-    border-top-color: transparent ;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    border-style:solid;
-    border-width: 1.5px;
-    font-size: 1.5rem;
-    justify-content:left;
-    align-items: center;
-    }
+.textos {
+  margin-bottom: 1em; }
 
-body{
-    text-align: justify;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.5 ;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-h2{
-    font-family: 'Supermercado One','Open Sans', sans-serif;
-    color: rgb(124, 110, 110); 
-    font-weight: bold;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-}
-h3{
-    font-family: 'Supermercado One','Open Sans', sans-serif;
-    color: rgb(41, 156, 160); 
-    font-weight: bold;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
+@media screen and (max-width: 576px) {
+  h1 {
+    display: none; }
+  nav {
+    display: flex; }
+  .imgEventos {
+    display: none; } }
 
-}
-footer{
-    display: flex;
-    color: rgb(41, 156, 160);
-    background-color: transparent;
-    font-family: 'Supermercado One', sans-serif, cursive;
-    font-weight: bold;
-    justify-content: space-evenly;
-    border-top: lightgray solid 2px;
-    }
+.imgGeneral {
+  display: flex;
+  border-radius: 35px;
+  margin-bottom: 2em;
+  margin-top: 1em; }
 
-.textos{
-    margin-bottom: 1em;
-}
+.imgHatha {
+  display: flex;
+  border-radius: 35px;
+  width: 18rem;
+  height: 12rem;
+  margin-top: 1em; }
 
-@media screen and (max-width: 576px){
-    h1{
-        display: none;
-    }
-    nav{
-        display: flex;
-    }
-    .imgEventos{
-    display: none;
-    }
+.imgNosotros {
+  border-radius: 35px;
+  width: 250px;
+  float: left;
+  margin-right: 2em; }
 
-}
+.imgNosotrosR {
+  border-radius: 35px;
+  width: 250px;
+  float: right; }
 
-.imgGeneral{
-    display: flex;
-    border-radius: 35px;
-    margin-bottom: 2em;
-    margin-top: 1em;
-}
-.imgHatha{
-    display:flex;
-    border-radius: 35px;
-    width: 18rem;
-    height: 12rem;
-    margin-top: 1em;
-}
-.imgNosotros{
-    border-radius: 35px;
-    width: 250px;
-    float: left;
-    margin-right: 2em;
-    }
-.imgNosotrosR{
-        border-radius: 35px;
-        width: 250px;
-        float: right;   
-        }
-.imgBuda{
-            display:flex;
-            float: right;
-            border-radius: 35px;
-            width: 20rem;
-            height: 20rem;
-        }
+.imgBuda {
+  display: flex;
+  float: right;
+  border-radius: 35px;
+  width: 20rem;
+  height: 20rem; }
+
 .carousel-caption {
-            top: 0;
-            bottom: auto;
-            font-family: 'Supermercado One', sans-serif, cursive;
-            font-weight: bold;
-            font-size: 1.5rem;
-        }
-.carLetraBlanca{
-    color: white;
-}
-.separacionFormulario{
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.finde{
-    margin-top: 20px;
-    margin-bottom: 15px;
-    align-items: center;
-}
+  top: 0;
+  bottom: auto;
+  font-family: 'Supermercado One', sans-serif, cursive;
+  font-weight: bold;
+  font-size: 1.5rem; }
 
+.carLetraBlanca {
+  color: white; }
 
+.separacionFormulario {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.finde {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  align-items: center; }
+
+/*header*/
+a {
+  text-decoration: none; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+
+.imgHeader {
+  display: flex;
+  height: 8rem;
+  width: 12rem;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0px; }
+
+footer {
+  display: flex;
+  color: #299ca0;
+  background-color: transparent;
+  font-family: "Supermercado One", sans-serif, cursive;
+  font-weight: bold;
+  justify-content: space-evenly;
+  border-top: lightgray solid 2px; }
+
+nav {
+  display: flex;
+  color: #7c6e6e;
+  background-color: transparent;
+  font-family: "Supermercado One", sans-serif, cursive;
+  border-top-color: transparent;
+  border-bottom-color: grey;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-style: solid;
+  border-width: 1.5px;
+  font-size: 1.5rem;
+  justify-content: left;
+  align-items: center; }

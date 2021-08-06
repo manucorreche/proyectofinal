@@ -1,0 +1,115 @@
+*{ padding: 0;
+    margin: 0;
+}
+
+$font-titulo: 'Supermercado One', sans-serif, cursive;
+$font-cuerpo: 'Open Sans', sans-serif;
+
+$celeste: rgb(41, 156, 160);
+$gris: rgb(124, 110, 110);
+
+
+ h1{
+    display: flex;
+    color: $celeste;
+    background-color: transparent;
+    font-family: $font-titulo;
+    text-align: center;
+    align-items:center;
+    font-size: 1.5rem;
+    text-decoration: none; 
+    margin-bottom: 0rem;
+    margin-top: 0rem; 
+    vertical-align: text-bottom;   
+    justify-content:center;
+    }
+    body{
+        text-align: justify;
+        font-family: $font-cuerpo;
+        line-height: 1.5 ;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    h2{
+        font-family: $font-titulo;
+        color: $gris;
+        font-weight: bold;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    h3{
+        font-family: $font-titulo;
+        color: $celeste; 
+        font-weight: bold;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    
+    }
+
+    .textos{
+        margin-bottom: 1em;
+    }
+    
+    @media screen and (max-width: 576px){
+        h1{
+            display: none;
+        }
+        nav{
+            display: flex;
+        }
+        .imgEventos{
+        display: none;
+        }
+    
+    }
+    
+    .imgGeneral{
+        display: flex;
+        border-radius: 35px;
+        margin-bottom: 2em;
+        margin-top: 1em;
+    }
+    .imgHatha{
+        display:flex;
+        border-radius: 35px;
+        width: 18rem;
+        height: 12rem;
+        margin-top: 1em;
+    }
+    .imgNosotros{
+        border-radius: 35px;
+        width: 250px;
+        float: left;
+        margin-right: 2em;
+        }
+    .imgNosotrosR{
+            border-radius: 35px;
+            width: 250px;
+            float: right;   
+            }
+    .imgBuda{
+                display:flex;
+                float: right;
+                border-radius: 35px;
+                width: 20rem;
+                height: 20rem;
+            }
+    .carousel-caption {
+                top: 0;
+                bottom: auto;
+                font-family: 'Supermercado One', sans-serif, cursive;
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+    .carLetraBlanca{
+        color: white;
+    }
+    .separacionFormulario{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .finde{
+        margin-top: 20px;
+        margin-bottom: 15px;
+        align-items: center;
+    }

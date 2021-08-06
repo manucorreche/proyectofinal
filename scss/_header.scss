@@ -1,0 +1,22 @@
+/*header*/
+$celeste: rgb(41, 156, 160);
+$gris: rgb(124, 110, 110);
+
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+}
+.imgHeader{
+    display:flex;
+    height: 8rem;
+    width: 12rem;
+    justify-content:space-between;
+    align-items:baseline;
+    margin: 0px;
+}   
