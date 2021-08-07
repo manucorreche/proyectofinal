@@ -98,6 +98,9 @@ h3 {
   margin-bottom: 15px;
   align-items: center; }
 
+.tope {
+  border-bottom: lightgray solid 2px; }
+
 /*header*/
 a {
   text-decoration: none; }
@@ -132,7 +135,7 @@ nav {
   background-color: transparent;
   font-family: "Supermercado One", sans-serif, cursive;
   border-top-color: transparent;
-  border-bottom-color: grey;
+  border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
   border-style: solid;
