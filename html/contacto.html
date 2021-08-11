@@ -63,70 +63,77 @@
     <h2>Contacto</h2>
     <section class="container-fluid row">
         <form action="">
-            <fieldset>
-                <legend></legend>
-                <div class="container-fluid row ">
-                    <div class="col-lg-5 col-sm-12">
-                        <div class="separacionFormulario">
-                            <h3>Datos Personales</h3>
-                        </div>
-
-                        <div class="separacionFormulario">
-                            <label for="id_nombre">Nombre</label>
-                            <input type="text" name="Nombre" id="id_nombre" placeholder="Nombre" size="30">
-                        </div>
-                        <div class="separacionFormulario">
-                            <label for="id_apellido">Apellido</label>
-                            <input type="text" name="Apellido" id="id_apellido" placeholder="Apellido" size="30">
-                        </div>
-                        <div class="separacionFormulario">
-                            <label for="id_email">E-mail</label>
-                            <input type="text" name="E-mail" id="id_email" placeholder="E-mail" size="30">
-                        </div>
-                        <div class="separacionFormulario">
-                            <label for="id_celular">Celular</label>
-                            <input type="text" name="celular" id="id_celular" placeholder="Celular" size="30">
-                        </div>
+            <div class="container-fluid row ">
+                <div class="col-lg-12 col-sm-12">
+                    <div class="separacionFormulario">
+                        <h3>Datos Personales</h3>
                     </div>
 
-                    <div class="col-lg-3 col-sm-12">
-                        <h3>Genero</h3>
-                        <div>
-                            <input type="radio" value="Hombre" name="Genero" id="id_masculino">
-                            <label for="id_masculino">Hombre</label>
-                        </div>
-                        <div>
-                            <input type="radio" value="Mujer" name="Genero" id="id_femenino">
-                            <label for="id_femenino">Mujer</label>
-                        </div>
-                        <div>
-                            <input type="radio" value="Otro" name="Genero" id="id_otro">
-                            <label for="id_otro">Prefiero no Responder </label>
-                        </div>
+                    <div class="separacionFormulario">
+                        <label for="id_nombre">Nombre</label>
+                        <input class="form-control" type="text" name="Nombre" id="id_nombre" placeholder="Nombre"
+                            size="30">
                     </div>
-                    <div class="col-lg-4 col-sm-12">
-                        <h3>Estoy interesado en recibir informacion</h3>
-                        <label for="id_informacion"></label>
-                        <select name="informacion sobre" id="id_informacion">
-                            <option value="Yoga online">Cursos de Yoga online</option>
-                            <option value="Yoga presencial">Clases de Yoga presenciales</option>
-                            <option value="Meditaciones">Meditaciones guiadas</option>
-                            <option value="Eventos">Eventos</option>
-                        </select>
-                        <div class="separacionFormulario">Deseo recibir Newsletter
-                            <input type="checkbox" name="acepta" value="1" />
-                        </div>
+                    <div class="separacionFormulario">
+                        <label for="id_apellido">Apellido</label>
+                        <input class="form-control" type="text" name="Apellido" id="id_apellido" placeholder="Apellido"
+                            size="30">
+                    </div>
+                    <div class="separacionFormulario">
+                        <label for="id_email">E-mail</label>
+                        <input class="form-control" type="text" name="E-mail" id="id_email" placeholder="E-mail"
+                            size="30">
+                    </div>
+                    <div class="separacionFormulario">
+                        <label for="id_celular">Celular</label>
+                        <input class="form-control" type="text" name="celular" id="id_celular" placeholder="Celular"
+                            size="30">
                     </div>
                 </div>
 
+                <div class="col-lg-6 col-sm-12 separacionFormulario">
+                    <h3>Genero</h3>
+                    <div>
+                        <input type="radio" value="Hombre" name="Genero" id="id_masculino">
+                        <label for="id_masculino">Hombre</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="Mujer" name="Genero" id="id_femenino">
+                        <label for="id_femenino">Mujer</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="Otro" name="Genero" id="id_otro">
+                        <label for="id_otro">Prefiero no Responder </label>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-sm-12 separacionFormulario">
+                    <h3>Estoy interesado en recibir informacion</h3>
+                    <label for="id_informacion"></label>
+                    <select name="informacion sobre" id="id_informacion">
+                        <option value="Yoga online">Cursos de Yoga online</option>
+                        <option value="Yoga presencial">Clases de Yoga presenciales</option>
+                        <option value="Meditaciones">Meditaciones guiadas</option>
+                    </select>
+                                    </div>
+                <div class="col-lg-12 col-sm-12 separacionFormulario">
+                    <h3>Dejanos un comentario</h3>
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Dejanos un comentario"></textarea>
+                </div>
+                <div class="separacionFormulario">Deseo recibir Newsletter
+                    <input type="checkbox" name="acepta" value="1" />
+                </div>
+            </div>
 
 
-                <div class="col-lg-12 col-sm-12 finde">
-                    <button type="submit" class="btn btn-secondary">Enviar</button>
-                    <button type="reset" class="btn btn-secondary">Limpiar Formulario</button>
-                </div>
-                </div>
-            </fieldset>
+
+            <div class="col-lg-12 col-sm-12 finde">
+                <button type="submit" class="btn btn-secondary">Enviar</button>
+                <button type="reset" class="btn btn-secondary">Limpiar Formulario</button>
+            </div>
+            </div>
+
         </form>
     </section>
     <footer>
